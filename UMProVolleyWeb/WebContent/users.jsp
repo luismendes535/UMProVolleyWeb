@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>ProVolley by Unisoft</title>
 </head>
 <body>
+<div id="navigator">
+<ul>
+  <li><a href="Index.jsp">Inicio</a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
 
+</ul>
+ </div>
 </body>
 </html>
