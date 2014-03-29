@@ -56,7 +56,7 @@ $(".pass-icon").css("left","0px");
     <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-<form action="index.html" class="login2" >
+<form method="POST" action="Login" class="login2" >
     <h1>ProVolley</h1>
     <input type="email" name="email" class="login-input" placeholder="Endereço de Email" autofocus>
     <input type="password" name="password" class="login-input" placeholder="Password">
