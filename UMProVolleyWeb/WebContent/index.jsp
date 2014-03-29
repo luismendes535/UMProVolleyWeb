@@ -102,7 +102,7 @@ function MM_swapImage() { //v3.0
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="login.html">Login</a>
+							<a href="login.jsp">Login</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajuda<strong class="caret"></strong></a>
