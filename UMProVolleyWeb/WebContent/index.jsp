@@ -128,7 +128,7 @@ function MM_swapImage() { //v3.0
 				<div class="col-md-8 column">
 					<h2>
 						Sobre Nós
-					</h2>
+					</h2><br>
 					<p>
 						A Direcção do Sporting Clube de Braga, sob a presidência de João Gomes Oliveira, reactivou na época desportiva 2001/02 a secção de voleibol, que passou a designar-se Departamento de Voleibol. 
 
@@ -140,16 +140,26 @@ Esta modalidade teve o seu início no ano de 1966, com uma equipa basicamente con
 				</div>
 				<div class="col-md-4 column">
 					<div class="media">
-						
+						<br><br>
 						<div class="media-body">
 							<h4 class="media-heading">
-Notícias							</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+Notícias							</h4><br><b>Juvenis vencem Gueifães</b> A equipa de juvenis do SC Braga deslocou-se à Maia na segunda jornada do campeonato nacional, e venceu por 3-1 a equipa do Gueifães, com os parciais de 25-11, 20-25, 25-22, 25-14, alcançando assim a segunda vitória nesta fase.<br><a>Ler Mais</a><!-- 
+
+ 
+Após vitória natural sobre a equipa do CDRJ Anreade na primeira jornada, aguardava-se com alguma expetativa o desempenho das bracarenses face a uma equipa com os mesmos objetivos, numa série que se prevê muito equilibrada na luta para os lugares de apuramento.
+ 
+As bracarenses entraram muito bem no jogo, concentradas e muito eficazes no serviço, aspeto que se manteve ao longo de todo jogo, conseguiram surpreender as intenções da equipa adversária, alcançado com alguma naturalidade a vitória no primeiro set por 25-11.
+ 
+No segundo e terceiro sets, a equipa do Gueifães reagiu, assistindo-se a dois sets muito equilibrados e com melhor desempenho por parte das duas equipas. A equipa do Gueifães venceu o segundo parcial por 25-20, evidenciando melhorias nos vários momentos do jogo. No entanto o SC Braga, não tendo realizado uma exibição muito vistosa, conseguiu criar muitas dificuldades à receção adversária e colocar-se numa posição muito favorável para controlar o desenrolar do jogo. Deste modo, a equipa bracarense venceu o terceiro parcial por 25-22.
+ 
+No quarto set, a equipa do Gueifães não conseguiu reagir tornando-se tudo mais fácil para a o SC Braga, que não facilitou e com uma exibição muito objetiva consegui vencer por 25-14.
+No próximo domingo a equipa bracarense desloca-se ao porto para defrontar a equipa do SC Arcozelo.-->
 							<div class="media">
-								 <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object" alt='' /></a>
+								 <a href="#" class="pull-left"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTaCF1iADBxAN7vJHvqYZ9NJt3eeZfwidodISQ76idSu-1v5PkN1g" class="media-object" alt='' /></a>
 								<div class="media-body">
 									<h4 class="media-heading">
-										Nested media heading
-									</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+										Inserir notícias
+									</h4> Completar com notícias sobr eo S.C.Braga Voleibol.
 								</div>
 							</div>
 						</div>
