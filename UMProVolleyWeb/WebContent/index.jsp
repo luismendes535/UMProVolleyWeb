@@ -64,7 +64,7 @@ function MM_swapImage() { //v3.0
 		<div class="col-md-12 column">
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="inserejogadora.html">ProVolley</a>
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="insereJogadora.jsp">ProVolley</a>
 				</div>
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -136,7 +136,7 @@ Esta modalidade teve o seu início no ano de 1966, com uma equipa basicamente con
 					</p>
 					<p>
 						
-					</p><img alt="140x140" src="image/scbimagem.jpg" class="img-thumbnail" />
+					</p><img alt="140x140" src="images/scbimagem.jpg" class="img-thumbnail" />
 				</div>
 				<div class="col-md-4 column">
 					<div class="media">
