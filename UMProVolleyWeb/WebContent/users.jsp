@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<stylesheet
 <title>ProVolley by Unisoft</title>
 </head>
 <body>
@@ -11,9 +12,10 @@
 <ul>
   <li><a href="Index.jsp">Inicio</a></li>
   <li><a href=""></a></li>
-  <li><a href=""></a></li>
+  <li><a href=""></a>
 
 </ul>
+
  </div>
 </body>
 </html>
