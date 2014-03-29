@@ -1,45 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
 <head>
-  
-  <title>S.C.BRAGA</title>
   <meta charset="ISO-8859-1">
+  <title>Login ProVolley</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="Unisoft">
-<script language="JavaScript" type="text/JavaScript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
+  <meta name="author" content="">
 
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
 
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="style.css" />
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -55,10 +28,11 @@ function MM_swapImage() { //v3.0
   
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
 </head>
-<body onLoad="MM_preloadImages('images/pic2r.jpg')">
-   
+
+<body>
+       
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -102,7 +76,7 @@ function MM_swapImage() { //v3.0
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="login.jsp">Login</a>
+							<a href="login.html">Login</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajuda<strong class="caret"></strong></a>
@@ -123,41 +97,44 @@ function MM_swapImage() { //v3.0
 				</div>
 				
 			</nav>
-    
-			<div class="row clearfix">
-				<div class="col-md-8 column">
-					<h2>
-						Sobre Nós
-					</h2>
-					<p>
-						A Direcção do Sporting Clube de Braga, sob a presidência de João Gomes Oliveira, reactivou na época desportiva 2001/02 a secção de voleibol, que passou a designar-se Departamento de Voleibol. 
 
-Esta modalidade teve o seu início no ano de 1966, com uma equipa basicamente constituída pelas irmãs Machado (M.ª Alice, M.ª Ondina, M.ª Eugénia, M.ª da Luz e M.ª Augusta), e ainda por outras atletas cujos nomes não são referidos, sob pena de esquecer algum, sendo treinador o Prof. António Basso Marques.
+<h2>
+                        Registe uma Atleta
+                    </h2>
+			<form role="form">
+				<div class="form-group">
+					 <label for="exampleInputEmail1">Nome de Usuário</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputPassword1">Password</label><input type="password" class="form-control" id="exampleInputPassword1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Nome</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Endereço de Email</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Data de Nascimento</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Número de Equipa</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Morada</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputFile">Fotografia do atleta</label><input type="file" id="exampleInputFile" />
+                                         <img alt="65x65" height="100" width="100" src="img/Person.PNG" class="img-rounded" />
+					<p class="help-block">
+						Fotografia tipo passe.
 					</p>
-					<p>
-						
-					</p><img alt="140x140" src="image/scbimagem.jpg" class="img-thumbnail" />
-				</div>
-				<div class="col-md-4 column">
-					<div class="media">
-						
-						<div class="media-body">
-							<h4 class="media-heading">
-Notícias							</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-							<div class="media">
-								 <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object" alt='' /></a>
-								<div class="media-body">
-									<h4 class="media-heading">
-										Nested media heading
-									</h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+				
+				</div> <button type="submit" class="btn btn-default">Submeter</button>
+			</form>
 		</div>
 	</div>
 </div>
+
 </body>
 </html>
