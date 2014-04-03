@@ -55,13 +55,14 @@ public class Login extends HttpServlet {
 		}
 		
 		
-		String url = "jdbc:mysql://localhost:3306/test";
+		
+		String url = "jdbc:mysql://localhost:88/unisoft";
 
 		try {
 			Connection con = DriverManager.getConnection(url, "root", "root");
 			Statement stm = con.createStatement();
 
-			ResultSet rs = stm.executeQuery("SELECT * FROM users WHERE email = "+email+" and password = "+password);
+			ResultSet rs = stm.executeQuery("SELECT * FROM login WHERE idlogin = "+idlogin+" and password = "+password);
 			
 			
 			if(rs.next()){
