@@ -108,7 +108,7 @@
 		<div class="col-md-12 column">
 			<div class="btn-group">
 				 <button class="btn btn-default" type="button"> <a href="criarTreinador.jsp">Criar Novo Perfil</a></button> <button class="btn btn-default" type="button"> Editar Pefil</button> <button class="btn btn-default" type="button"> Apagar Perfil</button> <button class="btn btn-default" type="button"> Lista de Treinadores</button>
-			</div>
+			</div>			
 		</div>
 	</div>
 </div>

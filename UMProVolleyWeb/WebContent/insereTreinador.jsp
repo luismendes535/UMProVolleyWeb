@@ -127,7 +127,7 @@
 				</div>
 				<div class="form-group">
 					 <label for="exampleInputFile">Fotografia do atleta</label><input type="file" id="exampleInputFile" />
-                                         <img alt="65x65" height="100" width="100" src="images/Person.png" class="img-rounded" />
+                                         <img alt="65x65" height="100" width="100" src="images/Person2.png" class="img-rounded" />
 					<p class="help-block">
 						Fotografia tipo passe.
 					</p>
