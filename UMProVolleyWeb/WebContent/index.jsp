@@ -32,10 +32,10 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body onLoad="MM_preloadImages('images/pic2r.jpg')">
-   
+<header>   
 <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-12 column">
+		<div class="col-md-12 column">			
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="insereJogadora.jsp">ProVolley</a>
@@ -44,7 +44,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							<a href="#">Inicio</a>
+							<a href="index.jsp">Inicio</a>
 						</li>
 						<li>
 							<a href="#">Modalidade</a>
@@ -97,7 +97,7 @@
 				</div>
 				
 			</nav>
-    
+</header>    
 			<div class="row clearfix">
 				<div class="col-md-8 column">
 					<h2>
@@ -147,9 +147,11 @@ No próximo domingo a equipa bracarense desloca-se ao porto para defrontar a equi
 <div class="navbar navbar-default navbar-fixed-bottom">
 <div class="container">
 <p class="navabr-text pull-left">Site construido por UniSoft</p>
-<a class="navbar-button btn-default pull-right">Seguir no Facebook</a>
+<a class="navbar-button btn-default pull-right" href="www.faceboob.com">Seguir no Facebook</a>
+<a class="navbar-button btn-default pull-right" href="contactos.jsp">Contactos |</a>
 </div>
 </div>
 </footer>
+
 </body>
 </html>

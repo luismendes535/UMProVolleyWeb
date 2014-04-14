@@ -29,7 +29,8 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Administrador-S.C.BRAGA</title>
+
+<title>Edite-S.C.Braga</title>
 </head>
 <body>
 <header>   
@@ -80,7 +81,7 @@
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="login.jsp">Login</a>
+							<a href="login.jsp">Logout</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajuda<strong class="caret"></strong></a>
@@ -102,6 +103,15 @@
 				
 			</nav>
 </header>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="btn-group">
+				 <button class="btn btn-default" type="button"> <a href="criarTreinador.jsp">Criar Novo Perfil</a></button> <button class="btn btn-default" type="button"> Editar Pefil</button> <button class="btn btn-default" type="button"> Apagar Perfil</button> <button class="btn btn-default" type="button"> Lista de Treinadores</button>
+			</div>
+		</div>
+	</div>
+</div>
 <footer>
 <div class="navbar navbar-default navbar-fixed-bottom">
 <div class="container">

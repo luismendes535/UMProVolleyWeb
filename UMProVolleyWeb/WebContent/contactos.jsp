@@ -9,32 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="Unisoft">
-<script language="JavaScript" type="text/JavaScript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
 
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -127,13 +101,10 @@ function MM_swapImage() { //v3.0
 			<div class="row clearfix">
 				<div class="col-md-8 column">
 					<h2>
-						Sobre Nós
-					</h2><br>
+Contactos:					</h2><br>
 					<p>
-						A Direcção do Sporting Clube de Braga, sob a presidência de João Gomes Oliveira, reactivou na época desportiva 2001/02 a secção de voleibol, que passou a designar-se Departamento de Voleibol. 
-
-Esta modalidade teve o seu início no ano de 1966, com uma equipa basicamente constituída pelas irmãs Machado (M.ª Alice, M.ª Ondina, M.ª Eugénia, M.ª da Luz e M.ª Augusta), e ainda por outras atletas cujos nomes não são referidos, sob pena de esquecer algum, sendo treinador o Prof. António Basso Marques.
-					</p>
+						Rececpção:123456789;
+						Luis Mendes:918064359					</p>
 					<p>
 						
 					</p><img alt="140x140" src="images/scbimagem.jpg" class="img-thumbnail" />
@@ -169,6 +140,14 @@ No próximo domingo a equipa bracarense desloca-se ao porto para defrontar a equi
 		</div>
 	</div>
 </div>
-
+<footer>
+<div class="navbar navbar-default navbar-fixed-bottom">
+<div class="container">
+<p class="navabr-text pull-left">Site construido por UniSoft</p>
+<a class="navbar-button btn-default pull-right" href="www.faceboob.com">Seguir no Facebook</a>
+<a class="navbar-button btn-default pull-right" href="contactos.jsp">Contactos</a>
+</div>
+</div>
+</footer>
 </body>
 </html>

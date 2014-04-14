@@ -29,7 +29,9 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Administrador-S.C.BRAGA</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
 </head>
 <body>
 <header>   
@@ -111,6 +113,7 @@
 </div>
 </div>
 </footer>
+
 
 </body>
 </html>

@@ -29,9 +29,10 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Administrador-S.C.BRAGA</title>
+<title>Insert title here</title>
 </head>
 <body>
+
 <header>   
 <div class="container">
 	<div class="row clearfix">
@@ -102,6 +103,40 @@
 				
 			</nav>
 </header>
+		<form role="form">
+				<div class="form-group">
+					 <label for="exampleInputEmail1">Nome de Usuário</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputPassword1">Password</label><input type="password" class="form-control" id="exampleInputPassword1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Nome</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Endereço de Email</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Data de Nascimento</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Número de Equipa</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+                            <div class="form-group">
+					 <label for="exampleInputEmail1">Morada</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputFile">Fotografia do atleta</label><input type="file" id="exampleInputFile" />
+                                         <img alt="65x65" height="100" width="100" src="images/Person.png" class="img-rounded" />
+					<p class="help-block">
+						Fotografia tipo passe.
+					</p>
+				
+				</div> <button type="submit" class="btn btn-default">Submeter</button>
+			</form>
+</div>
+	</div>
+</div>
 <footer>
 <div class="navbar navbar-default navbar-fixed-bottom">
 <div class="container">
