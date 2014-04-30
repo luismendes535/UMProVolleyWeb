@@ -107,8 +107,75 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="btn-group">
-				 <button class="btn btn-default" type="button"> <a href="criarTreinador.jsp">Criar Novo Perfil</a></button> <button class="btn btn-default" type="button"> Editar Pefil</button> <button class="btn btn-default" type="button"> Apagar Perfil</button> <button class="btn btn-default" type="button"> Lista de Treinadores</button>
-			</div>			
+				 <button class="btn btn-default" type="button"> <a rel="ajax" href="insereTreinador.jsp">Criar Novo Perfil</a></button> <button class="btn btn-default" type="button"> Editar Pefil</button> <button class="btn btn-default" type="button"> Apagar Perfil</button> <button class="btn btn-default" type="button"> Lista de Treinadores</button>
+			</div>
+<script language="javascript" type="text/javascript">
+$(document).ready(function () {
+	 
+	 //Check if url hash value exists (for bookmark)
+	 $.history.init(pageload); 
+	     
+	 //highlight the selected link
+	 $('a[href=' + document.location.hash + ']').addClass('selected');
+	 
+	 //Seearch for link with REL set to ajax
+	 $('a[rel=ajax]').click(function () {
+	  
+	  //grab the full url
+	  var hash = this.href;
+	  
+	  //remove the # value
+	  hash = hash.replace(/^.*#/, '');
+	  
+	  //for back button
+	   $.history.load(hash); 
+	   
+	   //clear the selected class and add the class class to the selected link
+	   $('a[rel=ajax]').removeClass('selected');
+	   $(this).addClass('selected');
+	   
+	   //hide the content and show the progress bar
+	   $('#content').hide();
+	   $('#loading').show();
+	   
+	   //run the ajax
+	  getPage();
+	 
+	  //cancel the anchor tag behaviour
+	  return false;
+	 }); 
+	});
+	 
+
+	function pageload(hash) {
+	 //if hash value exists, run the ajax
+	 if (hash) getPage();    
+	}
+	  
+	function getPage() {
+	 
+	 //generate the parameter for the php script
+	 var data = 'page=' + document.location.hash.replace(/^.*#/, '');
+	 $.ajax({
+	  url: "loader.php", 
+	  type: "GET",  
+	  data: data,  
+	  cache: false,
+	  success: function (html) { 
+	  
+	   //hide the progress bar
+	   $('#loading').hide(); 
+	   
+	   //add the content retrieved from ajax and put it in the #content div
+	   $('#content').html(html);
+	   
+	   //display the body with fadeIn transition
+	   $('#content').fadeIn('slow');  
+	  }  
+	 });
+	}			
+
+</script>			
 		</div>
 	</div>
 </div>
