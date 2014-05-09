@@ -10,6 +10,7 @@
 
     <link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -82,13 +83,13 @@
 						</li>
 						
 						<li class="dropdown pull-right">
-							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
+							 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Opções<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Action</a>
+									<a href="#">Editar</a>
 								</li>
 								<li>
-									<a href="#">Another action</a>
+									<a href="#"></a>
 								</li>
 								<li>
 									<a href="#">Something else here</a>
@@ -105,13 +106,13 @@
 						<thead>
 							<tr>
 								<th>
-									#
+									Número
 								</th>
 								<th>
-									Product
+									Nome
 								</th>
 								<th>
-									Payment Taken
+									Posicionamento
 								</th>
 								<th>
 									Status
@@ -121,95 +122,65 @@
 						<tbody>
 							<tr>
 								<td>
-									1
+									!GET numero
 								</td>
 								<td>
-									TB - Monthly
+									!GET nome
 								</td>
 								<td>
-									01/04/2012
+									????
 								</td>
 								<td>
 									Default
 								</td>
 							</tr>
-							<tr class="active">
+							
+							<tr>
 								<td>
-									1
+									!GET numero
 								</td>
 								<td>
-									TB - Monthly
+									!GET nome
 								</td>
 								<td>
-									01/04/2012
+									????
 								</td>
 								<td>
-									Approved
+									Default
 								</td>
-							</tr>
-							<tr class="success">
+							</tr>	
+							<tr>
 								<td>
-									2
-								</td>
-								<td>
-									TB - Monthly
+									!GET numero
 								</td>
 								<td>
-									02/04/2012
+									!GET nome
 								</td>
 								<td>
-									Declined
-								</td>
-							</tr>
-							<tr class="warning">
-								<td>
-									3
+									????
 								</td>
 								<td>
-									TB - Monthly
+									Default
+								</td>
+							</tr>	
+							<tr class="danger"> <!-- se o status for lesionado mudar para esta class -->
+										<td>
+									!GET numero
 								</td>
 								<td>
-									03/04/2012
+									!GET nome
 								</td>
 								<td>
-									Pending
-								</td>
-							</tr>
-							<tr class="danger">
-								<td>
-									4
+									????
 								</td>
 								<td>
-									TB - Monthly
-								</td>
-								<td>
-									04/04/2012
-								</td>
-								<td>
-									Call in to confirm
+									Default
 								</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
-				<div class="col-md-4 column">
-					<div class="btn-group">
-						 <button class="btn btn-default">Action</button> <button data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#">Action</a>
-							</li>
-							<li class="disabled">
-								<a href="#">Another action</a>
-							</li>
-							<li class="divider">
-							</li>
-							<li>
-								<a href="#">Something else here</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+
 			</div>
 		</div>
 	</div>
