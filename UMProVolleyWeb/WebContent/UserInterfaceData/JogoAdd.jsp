@@ -69,93 +69,35 @@
 				</div>
 				
 			</nav>
+
+</header>
 <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<div class="row clearfix">
-				<div class="col-md-8 column">
-					<ul class="nav nav-tabs">
-						<li class="active">
-							<a href="#">Plantel Principal</a>
-						</li>
-					
-
-			
-					</ul>
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th>
-									Número
-								</th>
-								<th>
-									Nome
-								</th>
-							
-								<th>
-									Status
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									!GET numero
-								</td>
-								<td>
-									!GET nome
-								</td>
-							
-								<td>
-									Default
-								</td>
-							</tr>
-
-							<tr>
-								<td>
-									!GET numero
-								</td>
-								<td>
-									!GET nome
-								</td>
-								
-								<td>
-									Default
-								</td>
-							</tr>	
-							<tr>
-								<td>
-									!GET numero
-								</td>
-								<td>
-									!GET nome
-								</td>
-								
-								<td>
-									Default
-								</td>
-							</tr>	
-							<tr class="danger"> <!-- se o status for lesionado mudar para esta class -->
-										<td>
-									!GET numero
-								</td>
-								<td>
-									!GET nome
-								</td>
-								
-								<td>
-									Default
-								</td>
-							</tr>
-						</tbody>
-					</table>
+		<div class="col-md-2 column">
+			<h1>
+			Inserir Jogo
+			</h1>
+		</div>
+		<div class="col-md-6 column">
+			<form role="form">
+				<div class="form-group">
+					 Data do Jogo<input type="text" class="form-control" id="exampleInputEmail1" placeholder="dd/mm/yyyy" />
 				</div>
-
-			</div>
+				<div class="form-group">
+					 Local<input type="password" class="form-control" id="exampleInputPassword1" />
+				</div>
+			   <div class="form-group">
+			       Adversário <input type="text" class="form-control"/>
+			        </div>
+			
+				</div> <button type="submit" class="btn btn-default">Inserir</button>
+			
+		</div>
+		<div class="col-md-4 column">
+			<img alt="140x140" src="" />
 		</div>
 	</div>
 </div>
-</header>
 <footer>
 <div class="navbar navbar-default navbar-fixed-bottom">
 <div class="container">
