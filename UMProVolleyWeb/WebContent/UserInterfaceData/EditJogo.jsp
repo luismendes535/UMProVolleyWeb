@@ -3,6 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta charset="ISO-8859-1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
@@ -30,6 +31,7 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Equipa</title>
+<title>Insert title here</title>
 </head>
 <body>
 <header>   
@@ -71,38 +73,105 @@
 			</nav>
 
 </header>
-<div class="container">
-	<div class="row clearfix">
+<h1>Editar Jogos:</h1>
+<p>Selecione um jogo para editar:</p>
+<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>
+									Jogo
+								</th>
+								<th>
+									Data
+								</th>
+							
+								<th>
+									Resultado
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<a href="#">SCB x  FCP</a>
+								</td>
+								<td>
+									!GET data
+								</td>
+							
+								<td>
+									!GET resultado
+								</td>
+							</tr>
+
+							<tr>
+								<td>
+									<a href="#">SCB x  FCP</a>
+								</td>
+								<td>
+									!GET data
+								</td>
+								
+								<td>
+									!GET resultado
+								</td>
+							</tr>	
+							<tr>
+								<td>
+									<a href="#">SCB x  FCP</a>
+								</td>
+								<td>
+									!GET data
+								</td>
+								
+								<td>
+									!GET resultado
+								</td>
+							</tr>	
+							<tr> <!-- se o status for lesionado mudar para esta class -->
+								<td>
+									<a href="#">SCB x  FCP</a>
+								</td>
+								<td>
+									!GET data
+								</td>
+								
+								<td>
+									!GET resultado
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<hr>
+					<div class="container">
+	<div class="row clearfix" style="border:1px ;"> <!-- isto vai surgir aquando a selecção de um dos jogos acima na tabela -->
 		<div class="col-md-2 column">
 			<h1>
-			Inserir Jogo
+			Editar 
 			</h1>
 		</div>
 		<div class="col-md-6 column">
 			<form role="form">
 				<div class="form-group">
-					 Data do Jogo<input type="text" class="form-control" id="exampleInputEmail1" placeholder="dd/mm/yyyy" />
+					 Data do Jogo<input type="text" class="form-control" id="exampleInputEmail1" />
 				</div>
 				<div class="form-group">
 					 Local<input type="password" class="form-control" id="exampleInputPassword1" />
 				</div>
-			   <div class="form-group">
-			       Adversário <input type="text" class="form-control"/>
-			        </div>
-			        
-			 <div class="form-group">
+			 
+			      <div class="form-group">
 			       Vencedor<input type="text" class="form-control"/>
 			        </div>
 			       <div class="form-group">
-			       Resultado<input type="number" class="form-control"/>
+			       <input type="text" class="form-control"/>
 			       </div>
-				</div> <button type="submit" class="btn btn-default">Inserir</button>
+			       </form>
+				</div> <button type="submit" class="btn btn-default">Editar</button>
 			
 		</div>
 		
 	</div>
-
-<footer>
+					<footer>
 <div class="navbar navbar-default navbar-fixed-bottom">
 <div class="container">
 <p class="navabr-text pull-left">µniSoft</p>
